@@ -1,0 +1,13 @@
+{{outlet}}
+{{#link-to "page2"}}
+	page2
+{{/link-to}}
+<table>
+	{{#each model as |item|}}
+		<tr>
+			<td>{{item.id}}</td>
+			<td>{{item.name}}</td>
+			<td>{{item.age}}</td>
+		</tr>
+	{{/each}}
+</table>
